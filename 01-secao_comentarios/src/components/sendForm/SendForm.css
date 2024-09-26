@@ -1,0 +1,22 @@
+.send-form-container {
+  width: 45.6875rem;
+  height: 10.4375rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.text-area {
+  width: 31.625rem;
+  height: 6.0625rem;
+  resize: none;
+  padding: 1rem 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+  border-radius: 0.5rem;
+  border-color: var(--ice);
+}

@@ -1,0 +1,31 @@
+:root {
+  --blue: #5457b6;
+  --soft-blue: #c3c4ef;
+  --red: #ed6468;
+  --soft-red: #ffb8bb;
+  --grey: #324152;
+  --soft-grey: #67727e;
+  --ice: #eaecf1;
+  --soft-ice: #f5f6fa;
+  --white: #ffffff;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: var(--grey);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--soft-ice);
+}
+
+button:hover {
+  filter: brightness(0.95);
+}

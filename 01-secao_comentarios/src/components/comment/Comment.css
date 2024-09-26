@@ -1,0 +1,39 @@
+.comment-container {
+  width: 45.6875rem;
+  height: 10.4375rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.sub-comment-container {
+  width: 40.1875rem;
+  height: 10.4375rem;
+}
+
+.comment-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-section-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-section-user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text {
+  color: var(--soft-grey);
+  line-height: 1.5rem;
+}
